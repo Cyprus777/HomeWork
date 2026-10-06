@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+	--box-sizing: border-box;
+	--background-color: #1a1a1a;
+	--card-background: #2b2b2b;
+	--text-color: #e0e0e0;
+	--accent-color: #9a7bca;
+
+	--border-color: #444444;
+	--border-width: 1px;
+	--border-style: solid;
+	--border-radius: 0.2rem;
+
+	--font-family-Noto-Sans: "Noto Sans";
+	--font-family-sans-serif: sans-serif;
+
+	--html-line-height: 1.2;
+
+	--body-min-height: 90vh;
+	--body-padding: 1rem;
+	--body-margin: 0;
+	--body-min-width: 360px;
+
+	--title-font-size: 1.8rem;
+	--title-padding: 0.3rem 0;
+
+	--form-max-width: 30rem;
+	--form-gap: 0.5rem;
+	--form-margin-bottom: 1rem;
+
+	--input-font-size: 1rem;
+	--input-padding: 0.3rem 0.6rem;
+	--input-height: 100%;
+
+	--button-font-size: 1rem;
+	--button-padding: 0.3rem 0.6rem;
+}
+
+html {
+	font-family: var(--font-family-Noto-Sans, --font-family-sans-serif);
+	color: var(--text-color);
+	background-color: var(--background-color);
+	line-height: var(--html-line-height);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: var(--box-sizing);
+}
+
+body {
+	min-height: var(--body-min-height);
+	min-width: var(--body-min-width);
+	padding: var(--body-padding);
+	margin: var(--body-margin);
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-size: var(--title-font-size);
+	padding: var(--title-padding);
+}
+
+.form {
+	display: flex;
+	max-width: var(--form-max-width);
+	align-items: center;
+	gap: var(--form-gap);
+	margin-bottom: var(--form-margin-bottom);
+}
+
+.input {
+	font-size: var(--input-font-size);
+	padding: var(--input-padding);
+	color: var(--text-color);
+	background-color: var(--card-background);
+	border: var(--border-width) var(--border-style) var(--border-color);
+	border-radius: var(--border-radius);
+	outline: none;
+	height: var(--input-height);
+}
+
+.input:focus {
+	border-color: var(--accent-color);
+}
+
+.button {
+	font-size: var(--button-font-size);
+	color: var(--text-color);
+	background-color: var(--accent-color);
+	border: var(--border-width) var(--border-style) var(--accent-color);
+	padding: var(--button-padding);
+	transition: opacity 0.2s;
+	outline: none;
+	cursor: pointer;
+}
+
+.button:not(:disabled):focus-visible {
+	outline: var(--border-width) var(--border-style) var(--accent-color);
+	outline-offset: 2px;
+}
+
+.button:disabled {
+	opacity: 0.8;
+	cursor: not-allowed;
+}
+
+@media (any-hover: hover) {
+	.button:not(:disabled):hover {
+		opacity: 0.85;
+	}
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.todos {
+	max-width: 25rem;
+	width: 100%;
+}
+
+.todo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	width: 100%;
+	padding: 0.6rem;
+	margin-bottom: 0.6rem;
+	border-radius: var(--border-radius);
+	background-color: var(--card-background);
+}
+
+.todo:last-child {
+	margin-bottom: 0;
+}
+
+.todo.completed {
+	opacity: 0.7;
+}
+
+.todo.completed .todo-text {
+	text-decoration: line-through;
+}
+
+.todo-actions {
+	display: flex;
+	gap: 0.25rem;
+	flex-shrink: 0;
+}
