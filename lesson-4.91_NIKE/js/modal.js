@@ -1,4 +1,4 @@
-import { currentSelectedSize, createCustomSizeSelectElement, orderableSizes } from "/js/sizes.js";
+import { currentSelectedSize, createCustomSizeSelectElement, orderableSizes } from "./sizes.js";
 
 const modalTemplate = document.getElementById("modal");
 
