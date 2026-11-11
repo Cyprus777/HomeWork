@@ -1,5 +1,6 @@
-import "header.js";
-import "product-slider.js";
-import "sizes.js";
-import "modal.js";
-import "burger.js";
+import "../js/header.js";
+import "../js/product-slider.js";
+import "../js/sizes.js";
+import "../js/modal.js";
+import "../js/burger.js";
+
