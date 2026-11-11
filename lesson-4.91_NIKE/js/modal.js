@@ -21,7 +21,6 @@ if (modalTemplate) {
 	const submitButton = form.querySelector(".modal__form-submit-btn");
 	const statusMsg = dialog.querySelector(".status-msg");
 
-	// 👇 ВОТ СЮДА ВСТАВЛЯЕМ МАСКУ ТЕЛЕФОНА:
 	const telInput = dialog.querySelector(".modal__form-input-tel");
 
 	telInput?.addEventListener("input", (e) => {
@@ -55,7 +54,6 @@ if (modalTemplate) {
 
 		input.value = formatted;
 	});
-	// 👆 КОНЕЦ БЛОКА МАСКИ ТЕЛЕФОНА
 
 	// Функция полной очистки формы
 	function resetModalState() {
@@ -66,7 +64,7 @@ if (modalTemplate) {
 			statusMsg.style.color = "";
 		}
 		if (submitButton) submitButton.disabled = false;
-		document.body.classList.remove("page__body--no-scroll"); // Снимаем блокировку скролла
+		document.body.classList.remove("page__body--no-scroll");
 	}
 
 	function closeModal() {
@@ -83,7 +81,7 @@ if (modalTemplate) {
 		}
 	});
 
-	// Важно: отслеживаем закрытие по клавише Escape
+	// отслеживаем закрытие по клавише Escape
 	dialog.addEventListener("close", () => {
 		resetModalState();
 	});
@@ -167,7 +165,7 @@ if (modalTemplate) {
 		const honeypot = form.querySelector(".modal__form-input-honeypot");
 		if (honeypot && honeypot.value !== "") return;
 
-		// 2. ВАЖНО: Проверка, выбран ли размер (если заказывают отсутствующий размер)
+		// 2. Проверка, выбран ли размер (если заказывают отсутствующий размер)
 		if (!productSizeInput.value) {
 			if (statusMsg) {
 				statusMsg.textContent = "Пожалуйста, выберите нужный размер!";
