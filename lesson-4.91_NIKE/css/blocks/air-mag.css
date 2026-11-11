@@ -1,0 +1,154 @@
+@media (width > 768px) {
+	.air-mag {
+		margin-bottom: 92.68px;
+	}
+}
+
+@media (width <= 768px) {
+	.air-mag {
+		margin-bottom: clamp(80px, 67.9008px + 3.2265vw, 92.68px);
+	}
+}
+.air-mag__container {
+	display: grid;
+	grid-auto-rows: max-content;
+}
+
+@media (width > 768px) {
+	.air-mag__container {
+		grid-template-columns: repeat(5, auto);
+		grid-template-areas:
+			"air-mag__title air-mag__title air-mag__title air-mag__title air-mag__title"
+			"air-mag__decor air-mag__description air-mag__description air-mag__description air-mag__description"
+			"air-mag__img air-mag__img air-mag__img air-mag__img air-mag__info-list";
+		max-height: 757.32px;
+	}
+}
+
+@media (width <= 768px) {
+	.air-mag__container {
+		grid-template-columns: minmax(auto, clamp(345px, -30px + 100vw, 738px));
+		grid-template-areas:
+			"air-mag__title"
+			"air-mag__decor"
+			"air-mag__description"
+			"air-mag__img"
+			"air-mag__info-list";
+		min-height: auto;
+		justify-content: center;
+	}
+}
+
+@media (width < 375px) {
+	.air-mag__container {
+		min-height: auto;
+	}
+}
+
+.air-mag__title {
+	grid-area: air-mag__title;
+	margin-bottom: 10px;
+}
+
+.air-mag__decor {
+	display: block;
+	width: 131px;
+	height: 39px;
+	grid-area: air-mag__decor;
+	align-self: center;
+}
+
+@media (width > 1240px) {
+	.air-mag__decor {
+		padding-right: 40px;
+	}
+}
+
+@media (width <= 1240px) {
+	.air-mag__decor {
+		padding-right: clamp(10px, -38.8136px + 6.3559vw, 40px);
+	}
+}
+
+@media (width <= 768px) {
+	.air-mag__decor {
+		padding-right: 0;
+		margin-left: -10px;
+	}
+}
+
+.air-mag__description {
+	grid-area: air-mag__description;
+}
+
+.air-mag__img {
+	display: block;
+	grid-area: air-mag__img;
+	margin-top: 23px;
+}
+
+@media (width > 1240px) {
+	.air-mag__img {
+		max-width: 905.88px;
+		max-height: 610.42px;
+	}
+}
+@media (width <= 1240px) {
+	.air-mag__img {
+		max-width: clamp(430px, -344.3132px + 100.822vw, 905.88px);
+		max-height: auto;
+	}
+}
+@media (width <= 768px) {
+	.air-mag__img {
+		max-width: clamp(345px, 263.8931px + 21.6285vw, 430px);
+		justify-self: center;
+		margin-top: 14.68px;
+	}
+}
+
+@media (width < 375px) {
+	.air-mag__img {
+		max-width: clamp(290px, 27.6923px + 84.6154vw, 345px);
+		justify-self: center;
+		margin-top: 14.68px;
+	}
+}
+
+.air-mag__info-list {
+	display: grid;
+	grid-template-columns: 293px;
+	grid-auto-rows: max-content;
+	grid-area: air-mag__info-list;
+	padding-top: 77.1px;
+}
+@media (width > 768px) {
+	.air-mag__info-list {
+		row-gap: 40px;
+		padding-top: 77.1px;
+	}
+}
+
+@media (width <= 768px) {
+	.air-mag__info-list {
+		padding-top: 0px;
+		grid-template-columns: auto;
+		row-gap: 20px;
+	}
+}
+
+.air-mag__info-item {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: repeat(2, max-content);
+	row-gap: 5px;
+}
+
+.air-mag__check {
+	width: 32px;
+	height: 32px;
+}
+.air-mag__check use {
+	width: 100%;
+	height: 100%;
+}

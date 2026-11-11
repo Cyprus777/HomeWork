@@ -1,0 +1,112 @@
+.page {
+	font-family: var(--font-family);
+	font-weight: var(--fw-regular);
+	color: var(--main-color);
+	scroll-padding-top: 98px;
+	overflow-x: clip;
+}
+.page__body {
+	background-color: var(--bg-color);
+}
+
+.page__body--no-scroll {
+	overflow: hidden;
+}
+
+.container {
+	width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	margin-inline: auto;
+}
+
+:is(a:focus-visible, button:focus-visible) {
+	outline: 3px solid var(--accent-color);
+	outline-offset: 5px;
+	transition:
+		outline var(--transition-time),
+		outline-offset var(--transition-time);
+}
+
+.button-more-details {
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto auto;
+	width: min(162px, 100%);
+	font-family: var(--font-family);
+	font-weight: var(--fw-regular);
+	font-size: 16px;
+	line-height: 1.3;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--main-color);
+	transition: color var(--transition-time);
+}
+
+.button-more-details:active {
+	color: var(--accent-color);
+}
+
+@media (any-hover: hover) {
+	.button-more-details:hover {
+		color: var(--accent-color);
+	}
+}
+
+.button-more-details__icon {
+	width: 24px;
+	height: 24px;
+	stroke: white;
+	transition: stroke var(--transition-time);
+}
+
+.button-more-details:active .button-more-details__icon {
+	stroke: var(--accent-color);
+}
+
+@media (any-hover: hover) {
+	.button-more-details:hover .button-more-details__icon {
+		stroke: var(--accent-color);
+	}
+}
+.title-sm,
+.title-md {
+	text-transform: uppercase;
+	color: var(--main-color);
+	font-weight: var(--fw-semibold);
+	font-family: var(--font-family);
+}
+
+@media (width > 1240px) {
+	.title-md {
+		font-size: 60px;
+	}
+}
+@media (width <= 1240px) {
+	.title-md {
+		font-size: clamp(45px, 20.5096px + 3.1847vw, 60px);
+	}
+}
+
+@media (width <= 768px) {
+	.title-md {
+		font-size: clamp(32px, 19.5954px + 3.3079vw, 45px);
+	}
+}
+
+.title-sm {
+	font-size: clamp(24px, 16.3664px + 2.0356vw, 32px);
+}
+
+.text-light,
+.text-regular {
+	font-family: var(--font-family);
+	font-size: 16px;
+	line-height: 1.4;
+	color: var(--main-color);
+}
+
+.text-light {
+	font-weight: var(--fw-lite);
+}
+.text-regular {
+	font-weight: var(--fw-regular);
+}
