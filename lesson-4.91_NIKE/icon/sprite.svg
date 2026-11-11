@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+    <symbol id="search" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M21 21L16.7 16.7M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+            stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="cart" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path
+            d="M2.0498 2.05H4.0498L6.7098 14.47C6.80738 14.9249 7.06048 15.3315 7.42552 15.6199C7.79056 15.9082 8.24471 16.0603 8.7098 16.05H18.4898C18.945 16.0493 19.3863 15.8933 19.7408 15.6078C20.0954 15.3224 20.3419 14.9245 20.4398 14.48L22.0898 7.05H5.1198M8.9998 21C8.9998 21.5523 8.55209 22 7.9998 22C7.44752 22 6.9998 21.5523 6.9998 21C6.9998 20.4477 7.44752 20 7.9998 20C8.55209 20 8.9998 20.4477 8.9998 21ZM19.9998 21C19.9998 21.5523 19.5521 22 18.9998 22C18.4475 22 17.9998 21.5523 17.9998 21C17.9998 20.4477 18.4475 20 18.9998 20C19.5521 20 19.9998 20.4477 19.9998 21Z"
+            stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="burger-icon-open" viewBox="0 0 24 24" fill="none">
+        <path d="M21 12H9M21 18H7M21 6H3" stroke="#FFEA00" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="burger-icon-close" viewBox="0 0 24 24" fill="none">
+        <path d="M18 6L6 18M6 6L18 18" stroke="#C9C69B" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="button-more-details" viewBox="0 0 24 24" fill="none">
+        <path d="M6 17L11 12L6 7M13 17L18 12L13 7" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+
+    <symbol id="air-mag-decor" viewBox="0 0 131 39" fill="none">
+        <g filter="url(#filter0_f_23_98)">
+            <rect x="14.5" y="14.5" width="102" height="10" stroke="#FFEA00" stroke-width="3" />
+        </g>
+        <rect x="14" y="14" width="103" height="11" stroke="#FFEA00" stroke-width="2" />
+        <defs>
+            <filter id="filter0_f_23_98" x="0" y="0" width="131" height="39" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="6.5" result="effect1_foregroundBlur_23_98" />
+            </filter>
+        </defs>
+    </symbol>
+
+    <symbol id="air-mag-check" viewBox="0 0 29 17" fill="none">
+        <path d="M22.0833 0.75L7.41667 15.4167L0.75 8.75M27.4167 6.08333L17.4167 16.0833L15.4167 14.0833"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="double-arrow" viewBox="0 0 40 40" fill="none">
+        <path d="M30 11.6667L21.6667 20L30 28.3334M18.3333 11.6667L10 20L18.3333 28.3334" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="cart-icon" viewBox="0 0 23 23" fill="none">
+        <g clip-path="url(#clip0_28_111)">
+            <path
+                d="M1.9646 1.9646H3.88127L6.43043 13.8671C6.52395 14.303 6.76649 14.6927 7.11632 14.969C7.46615 15.2454 7.90138 15.3912 8.3471 15.3813H17.7196C18.1558 15.3806 18.5787 15.2311 18.9185 14.9575C19.2583 14.684 19.4946 14.3027 19.5884 13.8767L21.1696 6.75627H4.90668M8.62502 20.125C8.62502 20.6543 8.19596 21.0834 7.66668 21.0834C7.13741 21.0834 6.70835 20.6543 6.70835 20.125C6.70835 19.5957 7.13741 19.1667 7.66668 19.1667C8.19596 19.1667 8.62502 19.5957 8.62502 20.125ZM19.1667 20.125C19.1667 20.6543 18.7376 21.0834 18.2084 21.0834C17.6791 21.0834 17.25 20.6543 17.25 20.125C17.25 19.5957 17.6791 19.1667 18.2084 19.1667C18.7376 19.1667 19.1667 19.5957 19.1667 20.125Z"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        <defs>
+            <clipPath id="clip0_28_111">
+                <rect width="23" height="23" fill="white" />
+            </clipPath>
+        </defs>
+    </symbol>
+
+    <symbol id="close-btn" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z"
+            fill="#000"></path>
+    </symbol>
+</svg>

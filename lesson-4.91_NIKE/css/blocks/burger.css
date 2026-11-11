@@ -1,0 +1,36 @@
+/* Блокировка скролла страницы при открытом меню */
+.page__body.page__body--menu-open {
+	overflow: hidden;
+}
+
+/* Стили бургера и мобильного меню */
+
+@media (width > 768px) {
+	.burger {
+		display: none;
+	}
+}
+
+@media (width <= 768px) {
+	/* Кнопка бургера */
+	.burger {
+		background-color: transparent;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+
+		width: 24px;
+		height: 24px;
+		justify-self: start;
+		z-index: var(--layer-3);
+	}
+
+	.burger--open .burger__icon-close,
+	.burger__icon-open {
+		display: block;
+	}
+	.burger__icon-close,
+	.burger--open .burger__icon-open {
+		display: none;
+	}
+}

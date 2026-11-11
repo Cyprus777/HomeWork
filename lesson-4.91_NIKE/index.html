@@ -1,0 +1,891 @@
+<!doctype html>
+<html class="page" lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="./icon/nike-favicon.ico"
+		/>
+		<link
+			rel="preload"
+			href="./fonts/Montserrat-Light.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link
+			rel="preload"
+			href="./fonts/Montserrat-Medium.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link
+			rel="preload"
+			href="./fonts/Montserrat-Regular.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link
+			rel="preload"
+			href="./fonts/Montserrat-SemiBold.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+		/>
+		<link href="./css/index.css" rel="stylesheet" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"
+			defer
+		></script>
+		<script src="./js/fslightbox.js" type="module"></script>
+		<script src="./js/index.js" type="module"></script>
+		<title>COPY Nike Air Mag</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container">
+				<div class="header__container">
+					<a class="logo header__logo" href="#">
+						<img
+							class="logo__img"
+							src="./icon/logo-icon.svg"
+							width="50"
+							height="17"
+							alt="Логотип Nike"
+						/>
+					</a>
+					<nav
+						id="header__menu"
+						class="menu header__menu"
+						aria-label="Главное меню"
+					>
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="#air-mag" lang="en"> Air Mag</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#product"> Размеры</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#characteristics">
+									Характеристики</a
+								>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#other-top-models">
+									Другие ТОП модели</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__controls">
+						<a class="header__order" href="#">Сделать заказ</a>
+						<div class="header__actions">
+							<button
+								class="header__actions-button"
+								aria-label="Корзина"
+								title="Корзина"
+							>
+								<svg width="24" height="24">
+									<use
+										class="header__actions-icon"
+										href="./icon/sprite.svg#cart"
+									></use>
+								</svg>
+							</button>
+							<button
+								class="header__actions-button"
+								aria-label="Поиск"
+								title="Поиск"
+							>
+								<svg width="24" height="24">
+									<use
+										class="header__actions-icon"
+										href="./icon/sprite.svg#search"
+									></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+					<button
+						class="header__burger burger"
+						aria-label="Открыть меню"
+						aria-expanded="false"
+						aria-controls="header__menu"
+					>
+						<svg class="burger__icon-open" width="24" height="24">
+							<use href="./icon/sprite.svg#burger-icon-open"></use>
+						</svg>
+						<svg class="burger__icon-close" width="24" height="24">
+							<use href="./icon/sprite.svg#burger-icon-close"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="container">
+				<section class="hero">
+					<div class="hero__container">
+						<header class="hero__header">
+							<h1 class="hero__title">
+								Nike <span class="hero__title-accent">air </span> mag
+							</h1>
+							<ul class="hero__benefits-list">
+								<li class="hero__benefits-item">стиль</li>
+								<li class="hero__benefits-item">скорость</li>
+							</ul>
+						</header>
+						<footer class="hero__footer">
+							<div class="button-more-details">
+								<a class="button-more-details__text" href="#">Подробнее</a>
+								<svg class="button-more-details__icon">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+							</div>
+						</footer>
+
+						<picture class="hero__img">
+							<source
+								media="(max-width: 576px)"
+								srcset="./images/nike-air-mag-w400-1.webp"
+								type="image/webp"
+							/>
+							<img
+								src="./images/nike-air-mag-1.webp"
+								alt="Кроссовок Nike Air Mag с желтым кольцом под подошвой"
+								width="846"
+								height="713"
+								fetchpriority="high"
+								decoding="async"
+							/>
+						</picture>
+					</div>
+				</section>
+				<section id="air-mag" class="air-mag">
+					<div class="air-mag__container">
+						<h2 class="air-mag__title title-md">Air Mag</h2>
+						<svg class="air-mag__decor">
+							<use href="./icon/sprite.svg#air-mag-decor"></use>
+						</svg>
+						<p class="air-mag__description text-regular">
+							Это не просто кроссовки — это шаг в будущее. С уникальным дизайном
+							и передовыми технологиями, эти кроссовки вдохновлены легендарной
+							киноделией и готовы сопровождать вас в любых приключениях.
+						</p>
+
+						<picture class="air-mag__img">
+							<source
+								media="(max-width: 576px)"
+								srcset="./images/nike-air-mag-w400-2.webp"
+								type="image/webp"
+							/>
+							<img
+								src="./images/nike-air-mag-2.webp"
+								alt="Кроссовки Nike Air Mag с желтым кольцом вокруг"
+								width="906"
+								height="610"
+								loading="lazy"
+								decoding="async"
+							/>
+						</picture>
+
+						<ul class="air-mag__info-list text-light">
+							<li class="air-mag__info-item">
+								<svg class="air-mag__check">
+									<use href="./icon/sprite.svg#air-mag-check"></use>
+								</svg>
+								<p class="air-mag__info-text">
+									инновационная технология амортизации, которая обеспечивает
+									непревзойденную поддержу суставов
+								</p>
+							</li>
+							<li class="air-mag__info-item">
+								<svg class="air-mag__check">
+									<use href="./icon/sprite.svg#air-mag-check"></use>
+								</svg>
+								<p class="air-mag__info-text">
+									высококачественные синтетические материалы для долговечности
+									и комфорта
+								</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section id="product">
+					<h2 class="product__title title-md">Размеры</h2>
+					<article class="product">
+						<div class="product__slider-wrapper">
+							<!-- Slider main container -->
+							<div class="swiper product__slider">
+								<button
+									class="product__slider-button product__slider-button--prev"
+									aria-label="Кнопка предыдущий слайд"
+								>
+									<svg
+										width="40"
+										height="40"
+										class="product__slider-button-icon"
+									>
+										<use href="./icon/sprite.svg#double-arrow"></use>
+									</svg>
+								</button>
+								<!-- Additional required wrapper -->
+								<div class="swiper-wrapper product__wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide product__slide">
+										<picture class="product__slide-picture">
+											<source
+												class="product__slide-source"
+												srcset="./product__slides/nike-air-mag-slide1.webp"
+												type="image/webp"
+											/>
+											<img
+												class="product__slide-img"
+												src="./product__slides/nike-air-mag-slide1.png"
+												width="357"
+												height="375"
+												loading="lazy"
+												alt="Кроссовки Nike Air Mag вид спереди"
+											/>
+										</picture>
+									</div>
+									<div class="swiper-slide product__slide">
+										<picture class="product__slide-picture">
+											<source
+												class="product__slide-source"
+												srcset="./product__slides/nike-air-mag-slide2.webp"
+												type="image/webp"
+											/>
+											<img
+												class="product__slide-img"
+												src="./product__slides/nike-air-mag-slide2.png"
+												width="408"
+												height="375"
+												loading="lazy"
+												alt="Кроссовки Nike Air Mag вид сзади"
+											/>
+										</picture>
+									</div>
+									<div class="swiper-slide product__slide">
+										<picture class="product__slide-picture">
+											<source
+												class="product__slide-source"
+												srcset="./product__slides/nike-air-mag-slide3.webp"
+												type="images/webp"
+											/>
+											<img
+												class="product__slide-img"
+												src="./product__slides/nike-air-mag-slide3.png"
+												width="408"
+												height="375"
+												loading="lazy"
+												alt="Кроссовки Nike Air Mag вид сбоку"
+											/>
+										</picture>
+									</div>
+								</div>
+								<button
+									class="product__slider-button product__slider-button--next"
+									aria-label="Кнопка следующий слайд"
+								>
+									<svg
+										class="product__slider-button-icon"
+										width="40"
+										height="40"
+									>
+										<use href="./icon/sprite.svg#double-arrow"></use>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<h3 class="product__subtitle title-sm">
+							Кроссовки
+							<strong class="product__subtitle-accent">Nike Air Mag</strong>
+							Back To Future
+						</h3>
+						<p class="product__description text-light">
+							Nike Air Mag — это кусочек киноистории и технологического
+							прогресса. Если вы ищете уникальную пару кроссовок, которая станет
+							не только стильным аксессуаром, но и ценным дополнением вашей
+							коллекции, Nike Air Mag — идеальный выбор.
+						</p>
+						<p class="product__price title-sm">36 490 ₽</p>
+						<section class="product__available-sizes">
+							<h4 class="product__available-sizes-title text-regular">
+								Размеры в наличии
+							</h4>
+							<div class="product__sizes-list in-stock-list" data-sizes="list">
+								<!-- <button
+									class="product__sizes-button"
+									aria-label="Кнопка выбрать размер 38"
+									title="Выбрать размер 38"
+									data-sizes="button"
+								>
+									38
+								</button>
+								<button
+									class="product__sizes-button"
+									aria-label="Кнопка выбрать размер 40"
+									title="Выбрать размер 40"
+									data-sizes="button"
+								>
+									40
+								</button>
+								<button
+									class="product__sizes-button product__sizes-button--is-active"
+									aria-label="Кнопка выбрать размер 41"
+									title="Выбрать размер 41"
+									data-sizes="button"
+								>
+									41
+								</button>
+								<button
+									class="product__sizes-button"
+									aria-label="Кнопка выбрать размер 42"
+									title="Выбрать размер 42"
+									data-sizes="button"
+								>
+									42
+								</button>
+								<button
+									class="product__sizes-button"
+									aria-label="Кнопка выбрать размер 44"
+									title="Выбрать размер 44"
+									data-sizes="button"
+								>
+									44
+								</button>
+								<button
+									class="product__sizes-button"
+									aria-label="Кнопка выбрать размер 45"
+									title="Выбрать размер 45"
+									data-sizes="button"
+								>
+									45
+								</button> -->
+							</div>
+						</section>
+						<section class="product__available-on-request">
+							<h4 class="product__available-on-request-title text-regular">
+								Размеры под заказ
+							</h4>
+							<div class="product__sizes-list orderable-list">
+								<!-- <button class="product__sizes-button" disabled>36</button>
+								<button class="product__sizes-button" disabled>37</button>
+								<button class="product__sizes-button" disabled>43</button>
+								<button class="product__sizes-button" disabled>46</button>
+								<button class="product__sizes-button" disabled>47</button> -->
+							</div>
+						</section>
+						<div class="product__buy-wrapper">
+							<button class="product__buy-button">Купить в 1 клик</button>
+							<button
+								class="product__cart-button"
+								aria-label="Добавить в корзину"
+								title="Добавить в корзину"
+							>
+								<svg
+									class="product__cart-icon"
+									aria-label="Иконка добавить в корзину"
+								>
+									<use
+										href="./icon/sprite.svg#cart-icon"
+										width="23"
+										height="23"
+									></use>
+								</svg>
+							</button>
+						</div>
+						<button class="product__sizes-order-link">Заказать размер</button>
+					</article>
+				</section>
+				<section id="characteristics" class="characteristics">
+					<div class="characteristics__container">
+						<h2 class="characteristics__title title-md">Характеристики</h2>
+						<div class="characteristics__video">
+							<picture>
+								<source
+									srcset="./images/characteristics-video-preview.webp"
+									type="image/webp"
+								/>
+								<img
+									class="characteristics__video-preview"
+									src="./images/characteristics-video-preview.jpg"
+									width="1240"
+									height="600"
+									alt="Кроссовки Nike Air Mag лежат на желтой коробке"
+									loading="lazy"
+									decoding="async"
+								/>
+							</picture>
+							<a
+								class="characteristics__video-play-link"
+								href="https://www.youtube.com/watch?v=sRHd5R_XNXY"
+								title="Запустить видео"
+								data-fslightbox
+							>
+								<img
+									class="characteristics__video-play-link-img"
+									src="./icon/play-icon.svg"
+									width="30"
+									height="24"
+									alt="Запустить видео"
+								/>
+							</a>
+						</div>
+						<article class="characteristics__card">
+							<svg class="characteristics__card-icon" width="56" height="56">
+								<use href="./icon/characteristics-sprite.svg#planet"></use>
+							</svg>
+							<h3 class="characteristics__card-title">
+								Футуристический дизайн
+							</h3>
+							<p class="characteristics__card-text text-light">
+								Nike Air Mag выделяются своим уникальным и оригинальным
+								дизайном, который сразу же привлекает внимание. Эта модель
+								создана для тех, кто ценит стиль, вдохновленный наукой и
+								фантастикой
+							</p>
+						</article>
+						<article class="characteristics__card">
+							<svg class="characteristics__card-icon" width="56" height="56">
+								<use href="./icon/characteristics-sprite.svg#laces"></use>
+							</svg>
+							<h3 class="characteristics__card-title">
+								Автоматическая шнуровка
+							</h3>
+							<p class="characteristics__card-text text-light">
+								Инновационная система автоматической шнуровки обеспечивает
+								идеальную фиксацию обуви на ноге без необходимости вручную
+								завязывать шнурки, что значительно повышает комфорт
+							</p>
+						</article>
+						<article class="characteristics__card">
+							<svg class="characteristics__card-icon" width="56" height="56">
+								<use href="./icon/characteristics-sprite.svg#limit"></use>
+							</svg>
+							<h3 class="characteristics__card-title">Ограниченный выпуск</h3>
+							<p class="characteristics__card-text text-light">
+								Nike Air Mag были выпущены в ограниченном количестве, что делает
+								каждую пару желанным объектом для коллекционеров и любителей
+								уникальных кроссовок
+							</p>
+						</article>
+						<article class="characteristics__card">
+							<svg class="characteristics__card-icon" width="56" height="56">
+								<use href="./icon/characteristics-sprite.svg#lighting"></use>
+							</svg>
+							<h3 class="characteristics__card-title">Встроенная подсветка</h3>
+							<p class="characteristics__card-text text-light">
+								Благодаря светодиодной подсветке, кроссовки выглядят эффектно в
+								темное время суток. Это придает им еще больше оригинальности и
+								уникальности
+							</p>
+						</article>
+						<article class="characteristics__card">
+							<svg class="characteristics__card-icon" width="56" height="56">
+								<use href="./icon/characteristics-sprite.svg#shoes"></use>
+							</svg>
+							<h3 class="characteristics__card-title">Комфорт и поддержка</h3>
+							<p class="characteristics__card-text text-light">
+								Модель предлагает высокий уровень комфорта благодаря
+								качественной амортизации и поддержке стопы, что делает их
+								идеальными для длительного ношения
+							</p>
+						</article>
+						<article class="characteristics__card">
+							<svg class="characteristics__card-icon" width="56" height="56">
+								<use href="./icon/characteristics-sprite.svg#materials"></use>
+							</svg>
+							<h3 class="characteristics__card-title">Современные материалы</h3>
+							<p class="characteristics__card-text text-light">
+								Nike Air Mag изготовлены из высококачественных синтетических
+								материалов, которые обеспечивают долговечность, устойчивость к
+								износу и легкость в уходе
+							</p>
+						</article>
+						<article class="characteristics__card">
+							<svg class="characteristics__card-icon" width="56" height="56">
+								<use href="./icon/characteristics-sprite.svg#running-man"></use>
+							</svg>
+							<h3 class="characteristics__card-title">Хорошая сцепляемость</h3>
+							<p class="characteristics__card-text text-light">
+								Подошва кроссовок обладает отличным сцеплением с различными
+								поверхностями, что обеспечивает надежность при ходьбе и беге
+							</p>
+						</article>
+						<article class="characteristics__card">
+							<svg class="characteristics__card-icon" width="56" height="56">
+								<use href="./icon/characteristics-sprite.svg#gemstone"></use>
+							</svg>
+							<h3 class="characteristics__card-title">Культовый статус</h3>
+							<p class="characteristics__card-text text-light">
+								Nike Air Mag стали культовыми благодаря своему появлению в кино
+								"Назад в будущее 2", что подчеркивает их историческую и
+								культурную значимость
+							</p>
+						</article>
+						<article class="characteristics__card">
+							<svg class="characteristics__card-icon" width="56" height="56">
+								<use href="./icon/characteristics-sprite.svg#flash"></use>
+							</svg>
+							<h3 class="characteristics__card-title">
+								Яркое дополнение к любому образу
+							</h3>
+							<p class="characteristics__card-text text-light">
+								Кроссовки легко вписываются в различные стили одежды, позволяя
+								создавать уникальные образы. Они могут дополнить как спортивный,
+								так и повседневный стиль
+							</p>
+						</article>
+					</div>
+				</section>
+				<section id="other-top-models" class="top-models">
+					<div class="top-models__container">
+						<h2 class="top-models__title title-md">
+							Другие
+							<strong class="top-models__title-accent">Топ</strong> модели от
+							Nike
+						</h2>
+						<article class="top-models__product">
+							<a class="top-models__product-link" href="#">
+								<h3 class="top-models__product-title">
+									Nike Air Yeezy 2 "Red October"
+								</h3>
+								<svg class="top-models__product-icon" width="24" height="24">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+								<picture class="top-models__product-wrapper">
+									<source
+										srcset="./images/top-model/top-model-1.webp"
+										type="image/webp"
+									/>
+									<img
+										src="./images/top-model/top-model-1.png"
+										alt="Кроссовки Nike Air Yeezy 2 'Red October'"
+										loading="lazy"
+										decoding="async"
+										width="190"
+										height="143"
+									/>
+								</picture>
+							</a>
+						</article>
+						<article class="top-models__product">
+							<a class="top-models__product-link" href="#">
+								<h3 class="top-models__product-title">Wings x Air Jordan 1</h3>
+								<svg class="top-models__product-icon" width="24" height="24">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+								<picture class="top-models__product-wrapper">
+									<source
+										srcset="./images/top-model/top-model-2.webp"
+										type="image/webp"
+									/>
+									<img
+										src="./images/top-model/top-model-2.png"
+										alt="Кроссовки Wings x Air Jordan 1"
+										loading="lazy"
+										decoding="async"
+										width="190"
+										height="120"
+									/>
+								</picture>
+							</a>
+						</article>
+						<article class="top-models__product">
+							<a class="top-models__product-link" href="#">
+								<h3 class="top-models__product-title">
+									Nike Dunk SB Low Yellow Lobster
+								</h3>
+								<svg class="top-models__product-icon" width="24" height="24">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+								<picture class="top-models__product-wrapper">
+									<source
+										srcset="./images/top-model/top-model-3.webp"
+										type="image/webp"
+									/>
+									<img
+										src="./images/top-model/top-model-3.png"
+										alt="Кроссовки Nike Dunk SB Low Yellow Lobster"
+										loading="lazy"
+										decoding="async"
+										width="190"
+										height="88"
+									/>
+								</picture>
+							</a>
+						</article>
+						<article class="top-models__product">
+							<a class="top-models__product-link" href="#">
+								<h3 class="top-models__product-title">
+									DJ Khaled x Air Jordan 3 “Grateful”
+								</h3>
+								<svg class="top-models__product-icon" width="24" height="24">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+								<picture class="top-models__product-wrapper">
+									<source
+										srcset="./images/top-model/top-model-4.webp"
+										type="image/webp"
+									/>
+									<img
+										src="./images/top-model/top-model-4.png"
+										alt="Кроссовки DJ Khaled x Air Jordan 3 'Grateful'"
+										loading="lazy"
+										decoding="async"
+										width="190"
+										height="136"
+									/>
+								</picture>
+							</a>
+						</article>
+						<article class="top-models__product">
+							<a class="top-models__product-link" href="#">
+								<h3 class="top-models__product-title">
+									Nike SB Dunk Low Freddy Krueger
+								</h3>
+								<svg class="top-models__product-icon" width="24" height="24">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+								<picture class="top-models__product-wrapper">
+									<source
+										srcset="./images/top-model/top-model-5.webp"
+										type="image/webp"
+									/>
+									<img
+										src="./images/top-model/top-model-5.png"
+										alt="Кроссовки Nike SB Dunk Low Freddy Krueger"
+										loading="lazy"
+										decoding="async"
+										width="190"
+										height="94"
+									/>
+								</picture>
+							</a>
+						</article>
+						<article class="top-models__product">
+							<a class="top-models__product-link" href="#">
+								<h3 class="top-models__product-title">Air Jordan 10 x OVO</h3>
+								<svg class="top-models__product-icon" width="24" height="24">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+								<picture class="top-models__product-wrapper">
+									<source
+										srcset="./images/top-model/top-model-6.webp"
+										type="image/webp"
+									/>
+									<img
+										src="./images/top-model/top-model-6.png"
+										alt="Кроссовки Air Jordan 10 x OVO"
+										loading="lazy"
+										decoding="async"
+										width="190"
+										height="97"
+									/>
+								</picture>
+							</a>
+						</article>
+						<article class="top-models__product">
+							<a class="top-models__product-link" href="#">
+								<h3 class="top-models__product-title">
+									Air Jordan 12 Flu-Game
+								</h3>
+								<svg class="top-models__product-icon" width="24" height="24">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+								<picture class="top-models__product-wrapper">
+									<source
+										srcset="./images/top-model/top-model-7.webp"
+										type="image/webp"
+									/>
+									<img
+										src="./images/top-model/top-model-7.png"
+										alt="Air Jordan 12 Flu-Game"
+										loading="lazy"
+										decoding="async"
+										width="190"
+										height="111"
+									/>
+								</picture>
+							</a>
+						</article>
+						<article class="top-models__product">
+							<a class="top-models__product-link" href="#">
+								<h3 class="top-models__product-title">
+									Air Jordan 1 “Shattered Backboard” 1985
+								</h3>
+								<svg class="top-models__product-icon" width="24" height="24">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+								<picture class="top-models__product-wrapper">
+									<source
+										srcset="./images/top-model/top-model-8.webp"
+										type="image/webp"
+									/>
+									<img
+										src="./images/top-model/top-model-8.png"
+										alt="Air Jordan 12 Flu-Game"
+										loading="lazy"
+										decoding="async"
+										width="190"
+										height="101"
+									/>
+								</picture>
+							</a>
+						</article>
+						<article class="top-models__product">
+							<a class="top-models__product-link" href="#">
+								<h3 class="top-models__product-title">
+									Kanye West Nike Air Yeezy 1 “Prototype”
+								</h3>
+								<svg class="top-models__product-icon" width="24" height="24">
+									<use href="./icon/sprite.svg#button-more-details"></use>
+								</svg>
+								<picture class="top-models__product-wrapper">
+									<source
+										srcset="./images/top-model/top-model-9.webp"
+										type="image/webp"
+									/>
+									<img
+										src="./images/top-model/top-model-9.png"
+										alt="Air Jordan 12 Flu-Game"
+										loading="lazy"
+										decoding="async"
+										width="190"
+										height="147"
+									/>
+								</picture>
+							</a>
+						</article>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__container">
+					<a class="logo footer__logo" href="#">
+						<img
+							class="logo__img"
+							src="./icon/logo-icon.svg"
+							width="50"
+							height="20"
+							alt="Логотип Nike"
+						/>
+					</a>
+					<nav class="menu footer__menu" aria-label="Главное меню">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="#air-mag" lang="en"> Air Mag</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#product"> Размеры</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#characteristics">
+									Характеристики</a
+								>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#other-top-models">
+									Другие ТОП модели</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<a class="footer__phone" href="tel:+79292992929"
+						>+7 (929) 299-29-29</a
+					>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Шаблон модального окна -->
+		<!-- создает скрытый шаблон HTML, который не отображается в DOM до вызова через JS; атрибут id нужен для уникальной идентификации шаблона в скрипте. -->
+		<template id="modal">
+			<!-- определяет семантический элемент модального окна; class используется для стилизации через CSS. -->
+			<dialog class="modal__dialog">
+				<!-- является контейнером для визуального контента окна; class задает область для позиционирования и оформления контента. -->
+				<div class="modal__content">
+					<!--  кнопка закрытия модального окна; class для стиля, aria-label сообщает скринридерам назначение кнопки (без текста внутри). -->
+					<button class="modal__close" aria-label="Закрыть" type="button">
+						<!-- контейнер для векторной иконки; используется для отрисовки графических элементов. -->
+						<svg>
+							<!-- вставляет графику из внешнего файла-спрайта; href указывает путь к файлу и конкретному ID иконки. -->
+							<use href="./icon/sprite.svg#close-btn"></use>
+						</svg>
+					</button>
+					<!--  заголовок окна; class задает отступы и шрифт, содержимое добавляется динамически через JS. -->
+					<h3 class="modal__title"></h3>
+					<!-- форма для сбора данных; novalidate отключает стандартную валидацию браузера для использования кастомной JS-логики. -->
+					<form class="modal__form" novalidate>
+						<!-- скрытое поле типа заявки; type="hidden" прячет поле, name — ключ для отправки на сервер. -->
+						<input
+							class="modal__form-input-form-type"
+							type="hidden"
+							name="form-type"
+						/>
+						<!--  скрытое поле размера товара; type="hidden" прячет, name служит идентификатором для сервера. -->
+						<input
+							class="modal__form-input-product-size"
+							type="hidden"
+							name="product-size"
+						/>
+						<!-- антиспам-ловушка; style="display: none" скрывает визуально, tabindex="-1" исключает из навигации клавишей Tab. -->
+						<input
+							class="modal__form-input-honeypot"
+							type="text"
+							name="honeypot"
+							style="display: none"
+							tabindex="-1"
+						/>
+						<!-- метка для поля ввода; class управляет внешним видом текста «Имя:». -->
+						<label class="modal__form-label-name"
+							>Имя:
+							<!-- поле для имени; required делает его обязательным, autocomplete помогает браузеру подставить имя из настроек. -->
+							<input
+								class="modal__form-input-name"
+								type="text"
+								name="name"
+								required
+								autocomplete="name"
+							/>
+						</label>
+						<!--  метка для поля телефона; class задает стиль подписи. -->
+						<label class="modal__form-label-tel"
+							>Телефон:
+							<!-- поле для телефона; type="tel" вызывает цифровую клавиатуру на смартфонах, required требует ввода данных. -->
+							<input
+								class="modal__form-input-tel"
+								type="tel"
+								name="tel"
+								required
+								autocomplete="tel"
+							/>
+						</label>
+						<!-- пустой контейнер для вставки дополнительных полей; class позволяет найти этот блок в JS для наполнения контентом. -->
+						<div class="modal__form-dynamic-fields"></div>
+						<!-- кнопка подтверждения; type="submit" автоматически инициирует отправку формы при клике. -->
+						<button type="submit" class="modal__form-submit-btn">
+							Отправить
+						</button>
+					</form>
+					<!-- блок для системных сообщений; aria-live="polite" уведомляет скринридеры об изменениях без перебивания пользователя, disabled="false" (невалидный атрибут, но технически присутствует) сигнализирует о готовности блока.
+                    </div> — закрывает контент модального окна. -->
+					<div class="status-msg" aria-live="polite"></div>
+				</div>
+			</dialog>
+		</template>
+	</body>
+</html>
